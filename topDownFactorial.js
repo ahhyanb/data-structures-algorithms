@@ -49,3 +49,16 @@ return total;
   
 
   console.log(iteratativeFactorial(5));
+
+  // function sum(n):
+  // // Accepts n - find the sum from 1 to n
+  // // First, check the base case
+  // if n is equal to 1 then:
+  //   return 1
+
+  // // Otherwise, find the solution to the subproblem
+  // // by making a recursive call
+  // subproblemSum = sum(n - 1)
+
+  // // Summation
+  // return n + subproblemSum;
