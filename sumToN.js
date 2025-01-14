@@ -5,3 +5,7 @@ function sum(n) {
     }
     return n + sum(n -1);
 }
+
+
+
+console.log(sum(4));
