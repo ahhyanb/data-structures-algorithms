@@ -1,3 +1,17 @@
+function compare(left, right) {
+  if (left === right) {
+    return 0;
+  }
+
+  if (left > right) {
+    return 1;
+  }
+
+  if (left < right) {
+    return -1 
+  }
+}
+
 function bubbleSort(compare, elements) {
     if (Array.isArray(elements)) {
       let inOrder;
@@ -24,4 +38,18 @@ function bubbleSort(compare, elements) {
     return elements;
   }
   
+function compare(left, right) {
+  if (left === right) {
+    return 0;
+  }
+
+  if (left > right) {
+    return 1;
+  }
+
+  if (left < right) {
+    return -1 
+  }
+}
+
   module.exports = bubbleSort;
