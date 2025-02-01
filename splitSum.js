@@ -57,3 +57,11 @@ function splitSum2(tours) {
     return smallest;
   }
   
+//   🔹 How splitSum2 Works (Step-by-Step):
+// Loop through the array, checking all possible ways to split it.
+// For each split:
+// Calculate the sum of the left part (preSum).
+// Calculate the sum of the right part (postSum).
+// Find the absolute difference.
+// Keep track of the smallest difference found.
+// Return the smallest difference found.
