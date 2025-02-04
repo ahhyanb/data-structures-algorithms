@@ -39,4 +39,6 @@ function split(text, separator) {
   }
 
   console.log(split("i am here", " "));
+  console.log(split("a-b--c---d", "-"));
+
 

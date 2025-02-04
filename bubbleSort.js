@@ -37,19 +37,11 @@ function bubbleSort(compare, elements) {
     }
     return elements;
   }
-  
-function compare(left, right) {
-  if (left === right) {
-    return 0;
-  }
-
-  if (left > right) {
-    return 1;
-  }
-
-  if (left < right) {
-    return -1 
-  }
-}
 
   module.exports = bubbleSort;
+
+
+
+function mergeSort(compare, elements) {
+    
+}

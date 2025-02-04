@@ -28,27 +28,27 @@ return total;
 
   //  itiratative function instead of recursive to avoid  stack overflow
 
-  function iteratativeFactorial(number) {
-    // Base case
-    if (number <= 1) {
-      return 1;
-    }
+//   function iteratativeFactorial(number) {
+//     // Base case
+//     if (number <= 1) {
+//       return 1;
+//     }
   
-    // Penultimate means second to the last in a series.
-    let penultimate = 1;
-    let total = 0;
+//     // Penultimate means second to the last in a series.
+//     let penultimate = 1;
+//     let total = 0;
   
-    // Calculate the factorial from 1 to `number`
-    for (let ultimate = 1; ultimate <= number; ultimate++) {
-      console.log(ultimate, "*", penultimate);
-      total = ultimate * penultimate;
-      penultimate = total;
-    }
-    return total;
-  }
+//     // Calculate the factorial from 1 to `number`
+//     for (let ultimate = 1; ultimate <= number; ultimate++) {
+//       console.log(ultimate, "*", penultimate);
+//       total = ultimate * penultimate;
+//       penultimate = total;
+//     }
+//     return total;
+//   }
   
 
-  console.log(iteratativeFactorial(5));
+//   console.log(iteratativeFactorial(5));
 
   // function sum(n):
   // // Accepts n - find the sum from 1 to n
